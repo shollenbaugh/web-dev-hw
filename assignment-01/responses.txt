@@ -1,0 +1,8 @@
+The web and the Internet are NOT the same. The Internet is a system of connected networks reaching many around the world, while the web is 
+the online content being accessed. 
+The Internet could be described as a giant wire. The parts connect to send signals and communicate. Internet service providers make it 
+possible to use personal computers and to be able to connect to the Internet without being an actual server.
+A directory is the start of your system of files, like the root of a tree before dividing into branches.
+Using a VCS can keep track of your changes, allowing you to include messages as to why a change was made. If a change made doesn't work,
+the VCS allows you to go back to a previous saved version. VCS also makes way for collaboration and allows collaborators to see changes
+and why they were made.
