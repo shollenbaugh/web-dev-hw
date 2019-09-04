@@ -1,0 +1,16 @@
+Savanah Hollenbaugh
+
+1. Data travels on the Internet through an intricate process involving
+wires and information. Binary code strung together is used to send information
+between systems that end up turning into data. Wi-Fi is a system used to connect
+other systems all around the world, allowing information to travel not just next
+door but also across the country, through again -- code and wires.
+
+2. DNS, or Domain Name System, is used to find IP addresses, for websites and
+saves them for future use. The DNS connects computers to website addresses once
+it knowns the IP address and where to send the user.
+
+3. A cookie is a small file stored on the computer used to access data specific
+to a client and website.
+
+4. The three basic parts of a URL are the protocol, domain, and path.
