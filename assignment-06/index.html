@@ -11,32 +11,57 @@
     <style>
       table, td {border: 1px solid black}
     </style>
+    <h1>Johnson County Public Library</h1>
   </head>
 
   <body>
+    <address>
+      Location:
+      1664 Library Blvd, Greenwood, IN 46142.
+      <br>
+      Contact number: (317) 885-1330
+    </address>
+    <a href="mailto:sh142413@umconnect.umt.edu"><h2>Contact us!</a></h2>
+
+    <br>
     <table>
       <tr>
-        <td>One</td>
-        <td>A</td>
+        <th>Open hours</th>
+        <th>Holidays</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>Thanksgiving</td>
       </tr>
 
       <tr>
-        <td>Two</td>
-        <td>B</td>
+        <td>Tuesday</td>
+        <td>Christmas Eve</td>
       </tr>
 
       <tr>
-        <td>Three</td>
-        <td>C</td>
+        <td>Wednesday</td>
+        <td>Christmas</td>
       </tr>
     </table>
+    <br><br>
 
 
     <form action="https://example.com/
     registration.php" method="post">
-      What is your first name:
+      How often do you read?
+      <br>
+        <input type="radio"
+        name="frequency" value="often" checked>Often<br>
+        <input type="radio"
+        name="frequency" value="sometimes">Sometimes<br>
+        <input type="radio"
+        name="frequency" value="never"> Never<br>
+
+        <br><br>
+      What do you like to read?
         <input type="text"
-        name="firstname" maxlength="8">
+        name="booktitle" maxlength="150">
 
         <br><br>
       Enter your comments below:
