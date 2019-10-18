@@ -22,6 +22,9 @@
       color: teal;
       padding: 5px;
     }
+    table, td {
+      border: 1px solid black
+    }
 
     </style>
   </head>
@@ -33,9 +36,59 @@
       <a href="./about.html">About</a>
       <a href="./contact.html">Contact</a>
     </nav>
+    <h2><a href="mailto:sh142413@umconnect.umt.edu">Contact us!</h2></a>
+
+    <table>
+      <tr>
+        <th>Availability</th>
+        <th>Hours</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>9 am - 3 pm</td>
+      </tr>
+
+      <tr>
+        <td>Tuesday</td>
+        <td>9 am - 3 pm</td>
+      </tr>
+
+      <tr>
+        <td>Wednesday</td>
+        <td>4 pm - 10 pm</td>
+      </tr>
+    </table>
 
     <div id="main">
     <h2> This is the contact page.</h2>
+    <form action="https://example.com/
+    registration.php" method="post">
+      How often do you use editing programs?
+      <br>
+        <input type="radio"
+        name="frequency" value="often" checked>Often<br>
+        <input type="radio"
+        name="frequency" value="sometimes">Sometimes<br>
+        <input type="radio"
+        name="frequency" value="never"> Never<br>
+
+        <br><br>
+      What do you like to create?
+        <input type="text"
+        name="booktitle" maxlength="150">
+
+        <br><br>
+      Enter your comments below:
+        <br>
+        <textarea cols="35" rows="10">
+          I love Adobe products!
+        </textarea>
+
+        <br><br>
+
+        <input type="button" value="Submit!">
+    </form>
+
 
   </body>
 </html>
