@@ -3,34 +3,34 @@ h1 {
 }
 
 .square  {
-  width: 30%;
-  height: 250px;
+  width: 50%;
+  height: 45%;
   opacity: 0.8;
   position: fixed;
 }
 
 #darkred {
   background-color: #F0785E;
-  top: 1px;
+  top: 0px;
   left: 1px;
 }
 
 #orange {
   background-color: #F0C15E;
-  top: 1px;
+  top: 0px;
   right: 1px;
 }
 
 #yellow {
   background-color: #FBE608;
   bottom: 8px;
-  left: 1px;
+  left: 0px;
 }
 
 #green {
   background-color: #D6F05E;
-  bottom: 1px;
-  right: 1px;
+  bottom: 8px;
+  right: 0px;
 }
 
 /* leaving a comment. */
