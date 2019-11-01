@@ -1,0 +1,36 @@
+h1 {
+  color: white;
+}
+
+.square  {
+  width: 30%;
+  height: 250px;
+  opacity: 0.8;
+  position: fixed;
+}
+
+#darkred {
+  background-color: #F0785E;
+  top: 1px;
+  left: 1px;
+}
+
+#orange {
+  background-color: #F0C15E;
+  top: 1px;
+  right: 1px;
+}
+
+#yellow {
+  background-color: #FBE608;
+  bottom: 8px;
+  left: 1px;
+}
+
+#green {
+  background-color: #D6F05E;
+  bottom: 1px;
+  right: 1px;
+}
+
+/* leaving a comment. */
