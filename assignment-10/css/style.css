@@ -1,0 +1,39 @@
+/* Page-Wide */
+body {
+  background-color: rgb(7, 154, 123);
+  color: white;
+  padding: 5px;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Paragraph Content */
+.text {
+  background-color: #FFFFFF;
+  color: black;
+  padding: 5px;
+
+  line-height: 2em;
+}
+p:first-of-type:first-letter {
+  font-family: 'Parisienne', cursive;
+  font-size: 3em;
+  font-weight: 700;
+  color: rgb(218, 247, 166)
+}
+
+/* "Read More!" Link */
+a {
+  background-color: rgb(218, 247, 166);
+  color: #FFFFFF
+  padding: 10px;
+}
+a:hover {
+  font-style: italic;
+}
+a:visited {
+  color: #999999;
+}
+a:active {
+  background-color: #999999;
+  color: rgb(218, 247, 166)
+}
