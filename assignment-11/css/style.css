@@ -6,6 +6,9 @@ body {
   height: 100px;
   text-align: center;
 }
+h1, h2 {
+  border: 2px solid rgb(20,84,114);
+}
 #site-navigation a {
   color: #FFF;
   display: block;
@@ -17,7 +20,7 @@ body {
 #left {
   width: 500px;
   height: 400px;
-  border: 2px solid rgb(20,84,114);
+  background-color: rgb(20,84,114);
   padding: 1em;
   margin: 1em;
   text-align: center;
@@ -28,10 +31,10 @@ body {
 #right {
   width: 500px;
   height: 400px;
-  border: 2px solid rgb(20,84,114);
+  background-color: rgb(20,84,114);
   text-align: center;
   position: relative;
-  top: auto;
+  top: 1em;
   left: 700px;
 }
 #site-logo a {
