@@ -1,0 +1,184 @@
+
+
+
+
+/* SITE-WIDE ELEMENTS: */
+  body {
+    background-color: rgb(155, 79, 150);
+    background-image: url('../images/site-border.jpg');
+    background-repeat: repeat-x;
+}
+h1 {
+  margin: 0;
+    font-family: 'Abril Fatface', Bombshell Pro, script;
+    color: rgb(7, 150, 154);
+    text-align: center;
+}
+h3 {
+  font-family: 'BirchStd-B', Georgia, serif;
+  font-size: 1em;
+}
+q {
+  font-family: 'BirchStd-I', Georgia, serif;
+  font-size: 2em;
+}
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+* {
+  font-family: 'BirchStd', Georgia, serif;
+  color: #000;
+}
+  /* LAYOUT AREAS: */
+.main-container {
+  width: 60%;
+  max-width: 700px;
+  margin: 3em auto;
+  padding: 3em;
+
+  background-color: #FFF;
+  border-right: 5px solid #999;
+  border-bottom: 5px solid #666;
+}
+  header {
+
+  }
+  main {
+    text-align: justify;
+    margin: 3em 0em;
+  }
+  footer {
+    margin-top: 3em;
+    text-align: center;
+    font-size: .75em;
+  }
+
+  /* LAYOUT PIECES: */
+
+  /* Site information: */
+  .site-heading {
+    width: 50%;
+    margin: 4em auto;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+
+    border: 3px solid pink;
+
+    text-align: center;
+  }
+  #site-title {
+    margin: .5em;
+    line-height: 1em;
+    font-size: 3em;
+  }
+  #site-slogan {
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(214,2,112);
+  }
+
+.site-icon {
+  margin: auto;
+  margin-top: -60px;
+  display: block;
+  position: relative;
+  z-index: 2;
+  }
+.under-img {
+  width: 60px;
+  height: 60px;
+  z-index: 3;
+  }
+.over-img {
+  width: 60px;
+  height: 60px;
+  z-index: 4;
+}
+.over-img:hover {
+  opacity: 0;
+
+}
+.under-img:hover {
+  opacity: 100;
+}
+
+/* Blog post: */
+.post-title{
+
+}
+.post-subtitle{
+  margin-left: 3px;
+  padding: 3px;
+  border-left: 3px solid rgb(214,2,112);
+}
+.post-content{
+  line-height: 1.45em;
+}
+.post-content p {
+  margin: 2em 0;
+}
+.post-content p:first-letter {
+  font-size: 2em;
+  font-weight: 400;
+  color: rgb(7, 150, 154);
+}
+
+/* Pull quote: */
+.pull-quote {
+  width: 30%;
+  margin: 2em 0 0 2em;
+  min-width: 200px;
+  float: right;
+}
+.pull-quote: hover {
+
+}
+
+/* Read more: */
+.archives-link {
+  width: 15em;
+  margin: auto;
+  min-height: 5em;
+}
+.button {
+  margin: auto;
+  position: relative;
+
+  background-color: rgb(155, 79, 150);
+  border-width: 3px 2px 2 px 3px;
+  border-style: solid;
+  border-color: #666 #000000 #000000 #666;
+
+  text-align: center;
+}
+.button:active {
+  background-color: purple;
+  border-width: 2px 3px 3px 2px;
+  border-style: solid;
+  border-color: #000000 #666 #666 #000000;
+}
+.button h3 {
+  color: #FFF;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.button h3:hover {
+  text-decoration: underline overline;
+  text-decoration-color: #FFF;
+  text-decoration-style: dotted;
+}
+.button h3:active {
+  color: pink;
+  text-decoration: underline overline;
+  text-decoration-color: pink;
+  text-decoration-style: dotted;
+}
+
+/* Decorative line break: */
+.line {
+  border-top: 2px #FFF;
+}

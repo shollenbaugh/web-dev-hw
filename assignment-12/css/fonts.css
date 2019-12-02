@@ -1,0 +1,31 @@
+
+
+
+/* Linking a Google font: */
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+
+
+/* Hosted from your site: */
+@font-face {
+  font-family: 'BirchStd';
+  src:
+      url('./fonts/BirchStd.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BirchStd-B';
+  src:
+      url('./fonts/BirchStd.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BirchStd-I';
+  src:
+      url('./fonts/BirchStd.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
