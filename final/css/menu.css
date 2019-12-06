@@ -1,0 +1,61 @@
+/* Menu bar (Container): */
+menu {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(247, 220, 111);
+}
+
+/* top level links: */
+#site-links {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+#site-links .menu-item {
+  width: 6em;
+  padding: .5em 1em;
+  display: inline-block;
+
+  background-color: rgb(247, 220, 111);
+
+  text-align: center;
+  color: #FFF;
+}
+#site-links .menu-item:hover {
+  background-color: rgb(7, 150, 154);
+  text-decoration: underline;
+  text-decoration-color: #FFF;
+}
+
+/* dropdown: */
+#site-links .dropdown {
+  display: inline-block;
+  width: 6em;
+}
+#site-links .dropdown-content {
+  display: none;
+  position: absolute;
+
+  background-color: rgb(7,150,154);
+  z-index: 5;
+}
+#site-links .dropdown-content a {
+  color: #FFF;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+#site-links .dropdown-content a:hover {
+  color: rgb(7,150,154);
+  font-weight: 200;
+}
+#site-links .dropdown:hover .dropdown-content {
+  display: block;
+}
+#site-links .dropdown-item {
+  min-width: 6em;
+  padding: .5em 1em;
+  display: block;
+  text-align: center;
+}
+.dropdown-item:hover {
+  background-color: rgb(247, 220, 111);
+}
